@@ -1,4 +1,4 @@
-# A look at the lyrics of Taylor Swift
+# A Taylor Swift Study
 
 Does Taylor Swift always sing about the same thing? Do her songs always have the same motifs?  
 
