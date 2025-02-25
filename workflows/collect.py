@@ -113,7 +113,7 @@ def save_corpus(corpus_df: pl.DataFrame) -> None:
     )
 
     for album_code in corpus_df.get_column("Album Code").unique().to_list():
-        with s3.open(f"s3://tsw/{album_code}.parquet") as f:
+        with s3.open(f"s3://tsw/{album_code}.parquet", "wb") as f:
             corpus_df.write_parquet(f)
 
 

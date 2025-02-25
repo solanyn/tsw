@@ -6,4 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "flytekit>=1.15.0",
+    "httpx>=0.28.1",
+    "polars>=1.23.0",
+    "s3fs>=2025.2.0",
 ]
